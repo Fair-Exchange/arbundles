@@ -1,6 +1,6 @@
 /// <reference types="node" />
 import { Signer } from "..";
-import { MessageSignerWalletAdapter } from "@j0nnyboi/wallet-adapter-base";
+import { MessageSignerWalletAdapter } from "@solana/wallet-adapter-base";
 export default class InjectedSolanaSigner implements Signer {
     private readonly _publicKey;
     readonly ownerLength: number;
