@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Coverage
+coverage
+
+# Transpiled files
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# JetBrains IDEs
+.idea/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.DS_Store
+
+package-lock.json
+src/__tests__/test.ts
+
+# build dirs
+build
+output
+
+
+# npm/yarn artifacts
+*.tgz
+.devcontainer/devcontainer.json
+.devcontainer/Dockerfile
+
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+stream/**/*.js
+stream/**/*.js.map
+stream/**/*.d.ts
+file/**/*.js
+file/**/*.js.map
+file/**/*.d.ts
+index.js
+index.d.ts
+index.js.map
+test
+
+package/
